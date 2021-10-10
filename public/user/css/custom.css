@@ -1,0 +1,124 @@
+*{
+	font-size: 16px;
+}
+.product-list-wrapper .product-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.product-list-wrapper h2.product-name{
+	font-size: 18px;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+    font-weight: 400;	
+
+    color: black;
+}
+.product-desc{
+	text-align: left;
+}
+.product-img a img.primary-image{
+	max-height: 500px;
+}
+.rating-content{
+	display: flex;
+	align-items: center;
+}
+.item-rating{
+	display: flex;
+}
+.icon{
+	position: absolute;  color: yellow;
+	right: 0;	
+	top: -43px;
+}
+.rating-number{
+    position: absolute;
+    right: 23px;
+    top: -14px;
+    font-size: 19px;
+}
+.rating-lenght{
+	width: 30%;
+	background: #fb6e2e;
+	display: block;
+	border-radius: 5px;
+	height: 100%;
+}
+
+.danhgia{
+    display: block;
+    padding: 10px;
+    background: blue;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.rating-me{
+	display: flex;
+
+}
+
+.list-star{
+	margin: 0 10px;
+}
+.list-star .rating-active{
+	color: yellow;
+	background: red;
+}
+
+.form-rating{
+	display: none;
+}
+.hide{
+	display: none;
+}
+.active{
+	display: block;
+}
+
+.btn-send{
+	margin: 10px 0;
+}
+
+.comment .name{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.comment .firt-name{
+	float: left;
+    width: 25px;
+    height: 25px;
+    background: #ddd;
+    margin-right: 7px;
+    text-align: center;
+    color: #666;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 600;
+    text-shadow: 1px 1px 0 rgb(255 255 255 / 20%);
+}
+.comment-items{
+	margin: 10px 0;
+}
+
+.content-comment{
+	margin-left: 30px;
+}
+
+.article-relate{
+	padding: 10px 0;
+}
+
+.article-relate a{
+	color: #288ad6;
+    font-size: 16px;
+}
+
+
+.sort-active{
+	border-bottom: 1px solid red;
+}
